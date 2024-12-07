@@ -23,3 +23,7 @@ go.work.sum
 
 # env file
 .env
+
+
+# .input.txt files contains puzzle inputs
+*.input.txt
