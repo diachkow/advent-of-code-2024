@@ -11,8 +11,6 @@ type ClawMachine struct {
 	ButtonA, ButtonB, Prize struct{ X, Y int }
 }
 
-const MAX_BUTTON_PRESSES = 100
-
 func main() {
 	machines := ReadMachineConfigurations()
 
